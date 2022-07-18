@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d7c49efe;
+}
+
+/* HOME PAGE */
+
+.sidebar {
+  position: absolute;
+  background-color: #343148ff;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  transition: 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+  padding: 23px;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: rgb(255, 0, 191); */
+  height: 58vh;
+  width: 80vw;
+  margin: 147px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devPic img {
+  width: 381px;
+  height: 58vh;
+}
+.devInfo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.devInfo h2 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px;
+}
+.devInfo p {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.hello {
+  font-size: 4em;
+  font-family: "Edu SA Beginner", cursive;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+.about {
+  font-size: 2em;
+  font-family: "Edu SA Beginner", cursive;
+}
+.moreabout {
+  font-size: 2em;
+  font-family: "PT Sans", sans-serif;
+  margin-top: 20px;
+}
+.buttons {
+  margin-top: 32px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 100px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}
+
+.buttons button:hover {
+  color: black;
+  background-color: white;
+}
+
+/* CONTACT ME PAGE */
+form {
+  margin: 0 2em;
+}
+.contactform {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 10px;
+  padding-top: 88px;
+  margin: 0 88px;
+}
+.contactform h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "PT Sans", sans-serif;
+  padding: 12px 0;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform .mb-3 {
+  padding: 20px 40px 10px;
+}
+#emailHelp {
+  font-size: 10px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+.contactform form div label {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.contactform form div input {
+  width: 20vw;
+  border-radius: 3px;
+  border: 2px solid black;
+  margin: 6px 0;
+  padding: 3px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+.submit-btn {
+  margin: 20px;
+}
+
+/* BLOG PAGE */
+.blogContainer {
+  margin: 100px 88px;
+}
+.blogContainer h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px;
+}
+.blogContainer h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px;
+  margin: 5px 10px;
+}
+.blogContainer p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 10px;
+  margin: 5px 10px;
+}
+.blogItem .btn {
+  padding: 10px;
+  margin: 5px 20px;
+}
+.blogItem {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  margin: 23px;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+}
+.intro {
+  margin: 40px 88px;
+}
+.intro h2 {
+  font-family: "Open Sans", sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "PT Sans", sans-serif;
+  margin: 12px;
+}
+.skillContainer {
+  padding: 22px;
+}
+.skillContainer {
+  padding: 22px;
+}
+
+.skill {
+  width: 265px;
+  height: 10px;
+  background-color: red;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+
+.skillItem {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.s100 {
+  width: 300px;
+  background-color: green;
+}
+.s50 {
+  width: 150px;
+  background-color: yellow;
+}
+.s25 {
+  width: 75px;
+  background-color: red;
+}
+.sidebar-go {
+  transform: translate(-443px, 0);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+}
+.ham {
+  margin-right: 15px;
+}
+.cross {
+  margin-left: 165px;
+}
+
+/* @media (max-width: 855px) {
+  .sidebar {
+    transform: translate(-443px, 0);
+    position: absolute;
+  }
+  .devPic {
+    display: none;
+  }
+  .intro,
+  .blogContainer,
+  .contactform {
+    margin: 50px 8px;
+  }
+  .contactform {
+    text-align: center;
+    width: 0px;
+    padding: 0px;
+  }
+} */
+@media (max-width: 860px) {
+  .contactform h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .devPic {
+    display: none;
+  }
+  .devInfo h2,
+  .blogContainer h1,
+  .blogContainer h2,
+  .contactform form div label,
+  .contactform h1 {
+    text-align: center;
+  }
+  .contactform form div input {
+    width: 100%;
+  }
+  .submit-btn {
+    display: grid;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 609px) and (min-width: 543px) {
+  #form-check {
+    font-size: 0.5em;
+    text-align: center;
+  }
+}
+@media (max-width: 542px) {
+  .intro p,
+  .contactform form div label {
+    font-size: 1em;
+  }
+  .intro h2,
+  .blogContainer h1 {
+    font-size: 2em;
+  }
+  .intro .skillContainer .skillItem,
+  .blogContainer p {
+    font-size: 1em;
+  }
+  .blogContainer h2,
+  .contactform h1 {
+    font-size: 1.5em;
+  }
+  .contactform {
+    margin: 0px;
+    padding-top: 10px;
+  }
+}
+
+/* font uniformity, textsize responsiveness, proper content,contact me uniformity */
